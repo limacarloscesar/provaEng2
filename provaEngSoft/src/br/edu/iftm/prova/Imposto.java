@@ -3,19 +3,8 @@ package br.edu.iftm.prova;
 public class Imposto extends Produto {
 	
 	private double valorDolar;
-	private double aliquota = 0;
-	private double calcImposto;
+	private double aliquota = 1.20;
 	
-	
-		
-	public double getCalcImposto() {
-		return calcImposto;
-	}
-
-	public void setCalcImposto(double calcImposto) {
-		this.calcImposto = calcImposto;
-	}
-
 	public double getValorDolar() {
 		return valorDolar;
 	}
